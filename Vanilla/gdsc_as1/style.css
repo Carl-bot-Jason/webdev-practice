@@ -394,7 +394,8 @@ a{
 	align-items: center;
 	flex-wrap: nowrap;
 	gap: 80px;
-	scrollbar-width: none;
+	scrollbar-width: thin;
+	overflow: hidden;
 }
 
 .clients-bottom > .image-box > .image{

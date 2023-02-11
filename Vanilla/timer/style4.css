@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('.clear_water.jfif') no-repeat center center/cover;
+	background-size: 120%;
+	min-height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 30%;
+	height: 230px;
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 0 0 3px;
+}
+
+#timer{
+	width: 100%;
+	font-family: Varela Round, sans-serif;
+	font-size: 3em;
+	text-align: center;
+	margin: 0px auto;
+	padding: 35px;
+}
+
+.buttons{
+	text-align: center;
+}
+
+button{
+	margin: 0 20px;
+	border: none;
+	background-color: transparent;
+}
+
+button i{
+	font-size: 2rem;
+	padding: 10px;
+	width: 100px;
+	border-radius: 15px;
+}
+
+#play{
+	background-color: green;
+	color: rgb(210,255,210);
+}
+
+#reset{
+	background-color: red;
+	color: rgb(255,210,210);
+}
+
+#pause{
+	background-color: rgb(13, 78, 231);
+	color: rgb(199, 199, 237);
+}
